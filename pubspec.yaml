@@ -1,0 +1,45 @@
+
+name: kwarihub
+description: KwariHub Textile Marketplace mobile application.
+publish_to: "none"
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.4.2
+  go_router: ^17.3.0
+  dio: ^5.11.0
+  flutter_secure_storage: ^10.3.1
+  intl: ^0.20.2
+  monnify_payment_sdk: ^1.0.8
+  url_launcher: ^6.3.3
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/kwarihub_logo.png
+    - assets/images/kwarihub_app_icon.jpg
+    - assets/images/kaftan_man.png
+    - assets/images/kaftan_women.png
+    - assets/images/Kaftan_atamfa.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/kwarihub_app_icon.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/kwarihub_app_icon.jpg"
+  remove_alpha_ios: true
